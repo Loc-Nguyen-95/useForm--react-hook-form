@@ -4,7 +4,7 @@
   npm install react-hook-form
 
 ## Example 
-```swift
+
 import { useForm } from "react-hook-form"
 
 export default function App() {
@@ -22,18 +22,15 @@ export default function App() {
   return (
    
     <form onSubmit={handleSubmit(onSubmit)}>
-      
       <input defaultValue="test" {...register("example")} />
-
       <input {...register("exampleRequired", { required: true })} />
-    
       {errors.exampleRequired && <span>This field is required</span>}
 
       <input type="submit" />
     </form>
   )
 }
-```
+
 ## `Feature 1`: Register feild
 Register là một trong những chìa khoá quan trọng để đăng kí component vào hook 
 Làm cho value có gía trị cho cả validation và submission 
