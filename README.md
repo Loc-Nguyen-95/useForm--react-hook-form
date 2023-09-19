@@ -1,5 +1,6 @@
 # Docs
 **Intallation in one line** 😛
+
 npm install react-hook-form
 ## Example 
 ```swift
