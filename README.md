@@ -34,6 +34,6 @@ export default function App() {
   )
 }
 ```
-## First Step:  Register feild
+## First Step: `Register feild`
 
 ## Apply validation 
