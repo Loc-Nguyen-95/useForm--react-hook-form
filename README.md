@@ -371,4 +371,4 @@ export default function App() {
   )
 }
 ```
-#### Source: (react-hook-form.com)[https://react-hook-form.com/get-started]
+#### Source: [react-hook-form.com](https://react-hook-form.com/get-started)
