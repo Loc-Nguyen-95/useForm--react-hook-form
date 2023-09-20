@@ -205,7 +205,7 @@ const App = () => {
 }
 ```
 ## `Feature 5`: Tích hợp vào `Controlled Input` !!
-#### useController()
+### useController()
 Thư viện đi với Uncontrolled component và HTML input nguyên bản, tuy nhiên không tránh gặp phải những component như React-Select, AntD, MUI ... 
 Để làm mọi thứ dễ dàng hơn, chúng tôi cung cấp wrappeer component: Controller, để sắp xếp hợp lí quá trình tích hợp trong khi vẫn cho phép tự do sử dụng register 
 ```swift
@@ -237,7 +237,7 @@ function Input({ control, name }) {
 }
 ```
 ## Feature 6:Tích hợp với Global State
-#### Redux state 
+### Redux state 
 Thư viện không yêu cầu dựa vào những thư viện quản lí state khác nhưng bạn có thể dễ dàn tích hợp với chúng 
 
 ```swift
@@ -306,7 +306,7 @@ export default function App() {
 }
 ```
 ## Feature 8: Tích hợp với services  (server)
-#### Form -> action
+### Form -> action
 ```swift
 import { Form } from "react-hook-form"
 
